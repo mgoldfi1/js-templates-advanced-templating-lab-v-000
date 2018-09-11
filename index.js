@@ -5,4 +5,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   init()
 })
 
-Handlebars.registerPartial('recipeDetailsPartial', document.getElementById("partial-template").innerHTML)
+Handlebars.registerPartial('recipeDetailsPartial', document.getElementById("recipe-details-partial").innerHTML)
