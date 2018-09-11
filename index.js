@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 })
 
 Handlebars.registerPartial('recipeDetailsPartial', document.getElementById("recipe-details-partial").innerHTML)
-Handlebars.registerHelper('displayIngredient', function() {
+Handlebars.registerHelper('displayIngredient', function(ingredient) {
   return new Handlebars.SafeString('<li name="ingredientsList">' + ingredient + '</li>')})
