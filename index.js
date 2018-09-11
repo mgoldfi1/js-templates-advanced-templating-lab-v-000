@@ -66,4 +66,4 @@ function init() {
 document.addEventListener("DOMContentLoaded", function(event) {
   init()
 })
-© 2018 GitHub, Inc.
+
